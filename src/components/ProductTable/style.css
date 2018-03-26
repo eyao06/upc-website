@@ -1,0 +1,38 @@
+
+.table {
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+td,th {
+  height: 40px;
+  text-align: center;
+  border: 1px solid #F5F5F5;
+  background-color: #FAF0E6;
+  color: #323232;
+}
+
+th {
+  height: 30px;
+  border-left: 0;
+  border-right: 0;
+  font-size: 25px;
+  border-bottom: 1px solid #D3D3D3;
+  border-top: none;
+  background-color: #323232;
+  color: white;
+}
+
+td:first-child {
+  border-left: 0;
+}
+
+td:last-child {
+  border-right: 0;
+}
+
+tr:last-child > td
+{
+  border-bottom: none;
+}

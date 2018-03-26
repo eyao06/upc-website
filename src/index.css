@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(#004e92 , #000428);
+  background-attachment: fixed;
+  width: 800px;
+  margin: 4% auto auto auto;
+  padding-top: 20px;
+  background-color: #323232;
+  border-radius: 4px;
+}
+
+#root {
+  width: 800px;
+  margin: 4% auto auto auto;
+  padding-top: 20px;
+  background-color: #323232;
+  border-radius: 4px;
+}
